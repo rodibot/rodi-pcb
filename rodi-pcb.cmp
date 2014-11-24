@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dom 23 nov 2014 17:34:29 PYST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = lun 24 nov 2014 00:04:31 PYST
 
 BeginCmp
 TimeStamp = /546AD7E9;
@@ -66,14 +66,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53247BF3;
 Reference = K1;
-ValeurCmp = L_SERVO;
+ValeurCmp = LEFT_SERVO;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /53247C02;
 Reference = K2;
-ValeurCmp = L_SERVO;
+ValeurCmp = RIGHT_SERVO;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
@@ -85,6 +85,13 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /54729B12;
+Reference = K4;
+ValeurCmp = SERIAL;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5333A977;
 Reference = P1;
 ValeurCmp = CONN_2;
@@ -92,16 +99,30 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /54724714;
+Reference = QRD1;
+ValeurCmp = SEN_L;
+IdModule  = QRD1114;
+EndCmp
+
+BeginCmp
+TimeStamp = /54724723;
+Reference = QRD2;
+ValeurCmp = SEN_R;
+IdModule  = QRD1114;
+EndCmp
+
+BeginCmp
 TimeStamp = /5436F0CE;
 Reference = R1;
-ValeurCmp = 330;
+ValeurCmp = 220;
 IdModule  = r_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5436EDE5;
 Reference = R2;
-ValeurCmp = 330;
+ValeurCmp = 220;
 IdModule  = r_0603;
 EndCmp
 
@@ -129,28 +150,28 @@ EndCmp
 BeginCmp
 TimeStamp = /53518DBF;
 Reference = R6;
-ValeurCmp = R;
+ValeurCmp = 220;
 IdModule  = r_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53515932;
 Reference = R7;
-ValeurCmp = R;
+ValeurCmp = 220;
 IdModule  = r_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53518DC5;
 Reference = R8;
-ValeurCmp = R;
+ValeurCmp = 10k;
 IdModule  = r_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53515938;
 Reference = R9;
-ValeurCmp = R;
+ValeurCmp = 10k;
 IdModule  = r_0603;
 EndCmp
 
@@ -166,20 +187,6 @@ TimeStamp = /546EBD6C;
 Reference = U2;
 ValeurCmp = ESP8266-03;
 IdModule  = ESP8266-E03;
-EndCmp
-
-BeginCmp
-TimeStamp = /54724714;
-Reference = VAL1;
-ValeurCmp = QRD1114;
-IdModule  = QRD1114;
-EndCmp
-
-BeginCmp
-TimeStamp = /54724723;
-Reference = VAL2;
-ValeurCmp = QRD1114;
-IdModule  = QRD1114;
 EndCmp
 
 EndListe
