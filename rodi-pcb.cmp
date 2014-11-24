@@ -1,24 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = vie 21 nov 2014 03:20:41 PYST
-
-BeginCmp
-TimeStamp = /546044ED;
-Reference = ??1;
-ValeurCmp = CNY70;
-IdModule  = cny70-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /54604506;
-Reference = ??2;
-ValeurCmp = CNY70;
-IdModule  = cny70-4;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dom 23 nov 2014 17:34:29 PYST
 
 BeginCmp
 TimeStamp = /546AD7E9;
 Reference = BZ1;
 ValeurCmp = BUZZER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = buzzer_tmb;
 EndCmp
 
 BeginCmp
@@ -169,20 +155,6 @@ IdModule  = r_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /546EE0F9;
-Reference = R10;
-ValeurCmp = 10k;
-IdModule  = r_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /546EE20E;
-Reference = R11;
-ValeurCmp = 10k;
-IdModule  = r_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5333A81E;
 Reference = U1;
 ValeurCmp = LDO;
@@ -194,6 +166,20 @@ TimeStamp = /546EBD6C;
 Reference = U2;
 ValeurCmp = ESP8266-03;
 IdModule  = ESP8266-E03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54724714;
+Reference = VAL1;
+ValeurCmp = QRD1114;
+IdModule  = QRD1114;
+EndCmp
+
+BeginCmp
+TimeStamp = /54724723;
+Reference = VAL2;
+ValeurCmp = QRD1114;
+IdModule  = QRD1114;
 EndCmp
 
 EndListe
