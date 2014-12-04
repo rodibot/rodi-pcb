@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  dom 23 nov 2014 17:54:52 PYST
+PCBNEW-LibModule-V1  jue 04 dic 2014 00:09:11 PYST
 # encoding utf-8
 Units mm
 $INDEX
 ESP8266-E03
+ESP8266-E12
 QRD1114
 RODI_SENSOR
 $EndINDEX
@@ -125,6 +126,154 @@ Ne 0 ""
 Po -7 -6
 $EndPAD
 $EndMODULE ESP8266-E03
+$MODULE ESP8266-E12
+Po 0 0 0 15 547FD051 00000000 ~~
+Li ESP8266-E12
+Sc 0
+AR 
+Op 0 0 0
+T0 13 -2.5 1 1 900 0.15 N V 21 N "ESP8266-E12"
+T1 -13 5.5 1 1 900 0.15 N V 21 N "VAL**"
+DS 11 -0.5 7.5 -0.5 0.3 21
+DS 6 -5 11 -5 0.3 21
+DS 11 -5 11 -3.5 0.3 21
+DS 11 -3.5 7.5 -3.5 0.3 21
+DS 7.5 -3.5 7.5 -2 0.3 21
+DS 7.5 -2 11 -2 0.3 21
+DS 11 -2 11 -0.5 0.3 21
+DS 7.5 -0.5 7.5 1 0.3 21
+DS 7.5 1 11 1 0.3 21
+DS 11 1 11 2.5 0.3 21
+DS 11 2.5 7.5 2.5 0.3 21
+DS 7.5 2.5 7.5 4 0.3 21
+DS 7.5 4 11 4 0.3 21
+DS 11 4 11 6.5 0.3 21
+T2 0.2 5.2 1 1 0 0.15 N V 21 N "802.11b/g/n"
+T2 0.6 3.6 1 1 0 0.15 N V 21 N "PA +25dBm"
+T2 0.6 2 1 1 0 0.15 N V 21 N "ISM 2.4GHZ"
+T2 -2.6 0.4 1 1 0 0.15 N V 21 N "VENDOR AI-THINKER"
+T2 -2.6 -1.2 1 1 0 0.15 N V 21 N "MODEL ESP8266MOD"
+DS -10.4 -6.2 -10.4 6.2 0.15 21
+DS -10.4 6.2 5.4 6.2 0.15 21
+DS 5.4 6.2 5.4 -6.2 0.15 21
+DS 5.4 -6.2 -10.4 -6.2 0.15 21
+DS 12 -8 12 8 0.15 21
+DS 12 8 -12 8 0.15 21
+DS -12 8 -12 -8 0.15 21
+DS -12 -8 12 -8 0.15 21
+$PAD
+Sh "16" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -10 -8
+$EndPAD
+$PAD
+Sh "15" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 -8
+$EndPAD
+$PAD
+Sh "1" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -10 8
+$EndPAD
+$PAD
+Sh "2" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 8
+$EndPAD
+$PAD
+Sh "3" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 8
+$EndPAD
+$PAD
+Sh "4" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 8
+$EndPAD
+$PAD
+Sh "5" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 8
+$EndPAD
+$PAD
+Sh "6" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 8
+$EndPAD
+$PAD
+Sh "7" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 8
+$EndPAD
+$PAD
+Sh "8" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 8
+$EndPAD
+$PAD
+Sh "9" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 -8
+$EndPAD
+$PAD
+Sh "10" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -8
+$EndPAD
+$PAD
+Sh "11" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -8
+$EndPAD
+$PAD
+Sh "12" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -8
+$EndPAD
+$PAD
+Sh "13" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 -8
+$EndPAD
+$PAD
+Sh "14" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 -8
+$EndPAD
+$EndMODULE ESP8266-E12
 $MODULE QRD1114
 Po 0 0 0 15 54724998 00000000 ~~
 Li QRD1114
