@@ -208,7 +208,7 @@ Text GLabel 6700 4400 2    60   Input ~ 0
 RXD
 Text GLabel 6700 4500 2    60   Input ~ 0
 TXD
-Text GLabel 3300 5600 2    60   Input ~ 0
+Text GLabel 3650 6450 0    60   Input ~ 0
 TXD
 Text GLabel 3300 5700 2    60   Input ~ 0
 RXD
@@ -852,16 +852,15 @@ $EndComp
 $Comp
 L GND #PWR043
 U 1 1 546EC4E4
-P 1800 6000
-F 0 "#PWR043" H 1800 6000 30  0001 C CNN
-F 1 "GND" H 1800 5930 30  0001 C CNN
-F 2 "" H 1800 6000 60  0000 C CNN
-F 3 "" H 1800 6000 60  0000 C CNN
-	1    1800 6000
-	1    0    0    -1  
+P 1800 5700
+F 0 "#PWR043" H 1800 5700 30  0001 C CNN
+F 1 "GND" H 1800 5630 30  0001 C CNN
+F 2 "" H 1800 5700 60  0000 C CNN
+F 3 "" H 1800 5700 60  0000 C CNN
+	1    1800 5700
+	0    1    1    0   
 $EndComp
 NoConn ~ 1950 5800
-NoConn ~ 1950 5900
 $Comp
 L +6V #PWR044
 U 1 1 546EDEF1
@@ -908,7 +907,7 @@ F 3 "" H 2850 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2450 4500 0    60   Input ~ 0
-TXD
+URXD_ESP
 Text GLabel 2450 4600 0    60   Input ~ 0
 RXD
 $Comp
@@ -1137,8 +1136,6 @@ Wire Wire Line
 Wire Wire Line
 	1950 5700 1800 5700
 Wire Wire Line
-	1800 5700 1800 6000
-Wire Wire Line
 	3300 5250 3300 5400
 Wire Wire Line
 	3300 5400 3250 5400
@@ -1162,4 +1159,36 @@ Text GLabel 6700 4800 2    60   Input ~ 0
 RST_ESP
 Wire Wire Line
 	6700 4800 6550 4800
+$Comp
+L CONN_2 P3
+U 1 1 547FDDC6
+P 4050 6350
+F 0 "P3" V 4000 6350 40  0000 C CNN
+F 1 "CONN_2" V 4100 6350 40  0000 C CNN
+F 2 "" H 4050 6350 60  0000 C CNN
+F 3 "" H 4050 6350 60  0000 C CNN
+	1    4050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6450 3650 6450
+Text GLabel 3300 5600 2    60   Input ~ 0
+URXD_ESP
+Text GLabel 3650 6250 0    60   Input ~ 0
+URXD_ESP
+Wire Wire Line
+	3650 6250 3700 6250
+$Comp
+L CONN_1 P2
+U 1 1 547FDFFE
+P 1750 5900
+F 0 "P2" H 1830 5900 40  0000 L CNN
+F 1 "PROG_ESP" H 1750 5955 30  0001 C CNN
+F 2 "" H 1750 5900 60  0000 C CNN
+F 3 "" H 1750 5900 60  0000 C CNN
+	1    1750 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 5900 1950 5900
 $EndSCHEMATC

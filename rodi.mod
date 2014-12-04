@@ -1,12 +1,53 @@
-PCBNEW-LibModule-V1  jue 04 dic 2014 00:09:11 PYST
+PCBNEW-LibModule-V1  jue 04 dic 2014 01:26:14 PYST
 # encoding utf-8
 Units mm
 $INDEX
+2-way_bridge_0603
 ESP8266-E03
 ESP8266-E12
 QRD1114
 RODI_SENSOR
 $EndINDEX
+$MODULE 2-way_bridge_0603
+Po 0 0 0 15 547FE242 00000000 ~~
+Li 2-way_bridge_0603
+Cd 2-way solder bridge, 0603
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -0.9 0.20066 0.20066 0 0.04064 N V 21 N "2-way_bridge_0603"
+T1 0 0.9 0.20066 0.20066 0 0.04064 N I 21 N "R***"
+DS -1.592 -0.7 -1.592 0.7 0.127 21
+DS -1.592 -0.7 1.592 -0.7 0.127 21
+DS 1.592 -0.7 1.592 0.7 0.127 21
+DS 1.592 0.7 -1.592 0.7 0.127 21
+$PAD
+Sh "1" R 1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.762 0
+$EndPAD
+$PAD
+Sh "2" R 1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.762 0
+$EndPAD
+$SHAPE3D
+Na "walter/smd_resistors/r_0603.wrl"
+Sc 1 1 1
+Of 0.027559 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$SHAPE3D
+Na "walter/smd_resistors/r_0603.wrl"
+Sc 1 1 1
+Of -0.027559 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 2-way_bridge_0603
 $MODULE ESP8266-E03
 Po 0 0 0 15 546EC9AF 00000000 ~~
 Li ESP8266-E03

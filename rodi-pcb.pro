@@ -1,4 +1,4 @@
-update=vie 21 nov 2014 11:21:48 PYST
+update=jue 04 dic 2014 01:22:25 PYST
 version=1
 last_client=pcbnew
 [general]
@@ -101,3 +101,4 @@ LibName22=w_to
 LibName23=cny70
 LibName24=w_misc_comp
 LibName25=rodi-logo
+LibName26=w_details

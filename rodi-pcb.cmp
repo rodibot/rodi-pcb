@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = lun 24 nov 2014 00:04:31 PYST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = jue 04 dic 2014 01:27:50 PYST
 
 BeginCmp
 TimeStamp = /546AD7E9;
@@ -96,6 +96,20 @@ TimeStamp = /5333A977;
 Reference = P1;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FDFFE;
+Reference = P2;
+ValeurCmp = PROG_ESP;
+IdModule  = testpoint_1mm5;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FDDC6;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = 2-way_bridge_0603;
 EndCmp
 
 BeginCmp
