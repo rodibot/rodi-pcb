@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = jue 04 dic 2014 01:27:50 PYST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = jue 04 dic 2014 01:50:02 PYST
 
 BeginCmp
 TimeStamp = /546AD7E9;
@@ -78,13 +78,6 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5333A5C4;
-Reference = K3;
-ValeurCmp = DIST;
-IdModule  = PIN_ARRAY_3X1;
-EndCmp
-
-BeginCmp
 TimeStamp = /54729B12;
 Reference = K4;
 ValeurCmp = SERIAL;
@@ -110,6 +103,13 @@ TimeStamp = /547FDDC6;
 Reference = P3;
 ValeurCmp = CONN_2;
 IdModule  = 2-way_bridge_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FE85B;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
