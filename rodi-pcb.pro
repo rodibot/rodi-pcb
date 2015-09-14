@@ -1,4 +1,4 @@
-update=jue 27 ago 2015 00:44:26 PYT
+update=lun 14 sep 2015 15:49:03 PYT
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,13 +26,7 @@ DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,200000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibDir=../../../../../work/kicad/libraries/modules;../../../../../work/kicad/libraries/modules/packages3d;../../../../../work/kicad/libraries/modules/packages3d/walter
-LibName1=w_smd_trans
-LibName2=w_smd_leds
-LibName3=w_rf_modules
-LibName4=w_smd_cap
-LibName5=w_smd_resistors
-LibName6=w_conn_strip
+LibDir=
 LibName7=connect
 LibName8=discret
 LibName9=pin_array
@@ -48,15 +42,6 @@ LibName18=dip_sockets
 LibName19=pga_sockets
 LibName20=valves
 LibName21=rodi
-LibName22=w_indicators
-LibName23=w_to
-LibName24=cny70
-LibName25=w_misc_comp
-LibName26=rodi-logo
-LibName27=w_details
-LibName28=w_switch
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -139,3 +124,5 @@ LibName75=video
 LibName76=Xicor
 LibName77=xilinx
 LibName78=Zilog
+[general]
+version=1
