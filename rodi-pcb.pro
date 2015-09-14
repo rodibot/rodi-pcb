@@ -1,4 +1,4 @@
-update=lun 14 sep 2015 15:49:03 PYT
+update=lun 14 sep 2015 18:13:30 PYT
 version=1
 last_client=kicad
 [cvpcb]
@@ -46,7 +46,7 @@ LibName21=rodi
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=rodi
+LibName1=lib/rodi
 LibName2=74xgxx
 LibName3=74xx
 LibName4=ac-dc
