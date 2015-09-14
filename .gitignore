@@ -2,5 +2,7 @@
 *.bck
 *.lst
 *.ses
+*.dcm
 *.kicad_pcb-bak
+*-cache.lib
 gerber
