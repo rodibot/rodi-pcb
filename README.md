@@ -2,7 +2,6 @@
 Schematic and board files for RoDI (Robot Didáctico inalámbrico)
 
 ## Pin assignment
-### Digital
 
 ### Ultraonic Sensors (HC-SR04)
 
@@ -30,7 +29,7 @@ Schematic and board files for RoDI (Robot Didáctico inalámbrico)
 | USER_LED      | PB5                | 13               |
 | BUZZER        | PD7                | 7                |
 
-# Servos and Hall effect sensors
+### Servos and Hall effect sensors
 
 | Module        | ATEMGA328 Pin Name | Arduino Pin Name |
 | ------------- | :-------------:    | :-------------:  |
